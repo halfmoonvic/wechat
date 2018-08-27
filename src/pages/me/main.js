@@ -1,7 +1,7 @@
 import Vue from 'vue'
-import App from './App'
+import Me from './me'
 
 Vue.config.productionTip = false
 
-const app = new Vue(App)
+const app = new Vue(Me)
 app.$mount()

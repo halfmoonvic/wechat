@@ -1,13 +1,35 @@
 {
   "pages": [
-    "pages/index/main",
-    "pages/logs/main",
-    "pages/counter/main"
+    "pages/books/main",
+    "pages/comments/main",
+    "pages/me/main"
   ],
+  "tabBar": {
+    "list": [
+      {
+        "iconPath": "static/img/book.png",
+        "pagePath": "pages/books/main",
+        "selectedIconPath": "static/img/book-active.png",
+        "text": "图书"
+      },
+      {
+        "iconPath": "static/img/todo.png",
+        "pagePath": "pages/comments/main",
+        "selectedIconPath": "static/img/todo-active.png",
+        "text": "评论"
+      },
+      {
+        "iconPath": "static/img/me.png",
+        "pagePath": "pages/me/main",
+        "selectedIconPath": "static/img/me-active.png",
+        "text": "个人中心"
+      }
+    ]
+  },
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "你好啊，格里高利"
   }
 }
